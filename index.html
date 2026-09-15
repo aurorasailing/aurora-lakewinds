@@ -1,4 +1,4 @@
-<!-- Aurora Lake Winds · index.html · v1.0 (Cloudflare) · 2026-09-15 -->
+<!-- Aurora Lake Winds · index.html · v1.1 (Cloudflare) · 2026-09-15 -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -128,7 +128,7 @@
   <b>Aurora Sailing · Lake Winds.</b>
   Automatic wind observations from the
   <a href="http://www.bom.gov.au" target="_blank" rel="noopener">Bureau of Meteorology</a>
-  (East Sale, Bairnsdale, Lakes Entrance and the offshore Kingfish B platform), plus
+  (East Sale, Bairnsdale, Wilsons Promontory and the offshore Hogan Island), plus
   <a href="https://sailglyc.com" target="_blank" rel="noopener">Gippsland Lakes Yacht Club</a>’s
   own station at Paynesville. Reading the numbers:
   <ul class="notes">
@@ -146,7 +146,7 @@
   </ul>
   Observations are automatic and not quality-checked — always confirm conditions
   on the water before you sail.
-  <div class="ver">index.html · v1.0</div>
+  <div class="ver">index.html · v1.1</div>
 </footer>
 
 <script>
@@ -174,10 +174,10 @@ const BANDS = [
 // Mornington, Blairgowrie) are a single live reading — no gust, no trend.
 const STATIONS = [
   {wmo:"glyc", name:"Paynesville (GLYC)", club:true, realtime:true},
-  {wmo:95904,  name:"Lakes Entrance"},
   {wmo:94912,  name:"Bairnsdale"},
   {wmo:95907,  name:"East Sale"},
-  {wmo:55039,  name:"Kingfish B"},
+  {wmo:94893,  name:"Wilsons Prom"},
+  {wmo:94949,  name:"Hogan Island"},
 ];
 
 const COMPASS = {N:0,NNE:22.5,NE:45,ENE:67.5,E:90,ESE:112.5,SE:135,SSE:157.5,
