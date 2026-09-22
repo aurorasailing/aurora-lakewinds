@@ -1,4 +1,4 @@
-<!-- Aurora Lake Winds · lakes-map.html · v1.11 (Cloudflare) · 2026-09-15 -->
+<!-- Aurora Lake Winds · lakes-map.html · v1.12 (Cloudflare) · 2026-09-15 -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -68,6 +68,7 @@
   /* Main grid */
   .grid{display:flex; flex-wrap:wrap; gap:34px; align-items:flex-start; margin:26px 0 6px}
   .mapcard{flex:1.05 1 380px; background:var(--white); border:1px solid var(--line); border-radius:4px; padding:14px}
+  .beta{display:inline-block; font-family:'Syne',sans-serif; font-weight:700; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:#B37400; background:#FFF1D6; border:1px solid #FFCE73; border-radius:999px; padding:1px 7px; vertical-align:middle; margin-left:8px}
   svg.bay{display:block; width:100%; height:auto}
   .b-name{font-family:'Syne',sans-serif; font-weight:700; font-size:14px; fill:var(--navy)}
   .b-val{font-family:'Syne',sans-serif; font-weight:600; font-size:13px; fill:var(--slate)}
@@ -147,7 +148,7 @@
 <div class="wrap">
   <div class="top">
     <span class="eyebrow">Live from the lakes</span>
-    <h1>Gippsland Lakes, <span class="accent">right now</span></h1>
+    <h1>Gippsland Lakes, <span class="accent">right now</span> <span class="beta">beta</span></h1>
     <p class="lead">Live wind across the Gippsland Lakes — Paynesville, East Sale and Bairnsdale, plus the exposed Bass Strait sentinels at Wilsons Promontory and Hogan Island. Tap a Bureau station for its 24-hour graph.</p>
     <div class="banner" id="banner"></div>
   </div>
@@ -228,7 +229,7 @@
       <a href="wind-barbs.html">Wind barbs</a>
       <a href="https://wind.aurorasailing.com.au/" target="_blank" rel="noopener">Bay Winds ↗</a>
     </nav>
-    <div class="ver">lakes-map.html · v1.11</div>
+    <div class="ver">lakes-map.html · v1.12</div>
   </footer>
 </div>
 
